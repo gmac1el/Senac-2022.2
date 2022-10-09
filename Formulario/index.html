@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+<div class="container">
+  <form action="form">               
+
+    <!--primeiro nome-->
+    
+    <label for="fname">Primeiro Nome</label> <label for="fname"                      style="color:red">*</label>
+
+    
+    <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+
+    <!--ultimo nome-->
+    <label for="lname">Ultimo Nome </label> <label for="lname"                      style="color:red">*</label>
+    <input type="text" id="lname" name="lastname" placeholder="Seu último nome...">
+
+    <!--email-->
+    <label for="1email">Email</label> <label for="email"                      style="color:red">*</label>
+    <input type="email" placeholder="Insira seu e-mail"
+    <br> <br> <br>
+    
+    <!--telefone -->
+    <label for="telefone">Telefone</label> <label for="telefone"                      style="color:red">*</label>
+    <input type="tel" id="phone" name="telefone" pattern="[+]{55}{81}[0-9]{11,14}"     required placeholder="(99)99999-9999">
+    <br> <br>
+
+    <!--lingua-->
+    <label for="language">Língua</label>
+    <select id="language" name="language">
+      <option value="html">Português</option>
+      <option value="css">Inglês</option>
+      <option value="js">Espanhol</option>
+    </select>
+
+    <!--mensagem-->
+    <label for="subject">Mensagem</label>
+    <textarea id="subject" name="subject" placeholder="Informe o que deseja."         style="height:200px"></textarea>
+
+    <!--arquivo-->
+    <input type="file">
+    <br> <br>
+
+    <!--opcoes-->
+    <label for="opcoes">Suas linguagens preferidas (aperte CTRL para escolher mais de uma):</label>
+
+    <select id="opcoes" id="opcoes" multiple>>
+    <option value="Java">Java</option>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="PHP">PHP</option>
+    <option value="Python">Python</option> 
+    </select>
+
+    <!--checkbox-->
+    <label for="checkbox">Turno para reuniões: </label> <label for="checkbox"                      style="color:red">*</label>
+    <br>
+    <input type="checkbox" id="1manha" name="manhã" value="manha">
+    <label for="1manha"> Manhã</label><br>
+    <input type="checkbox" id="1tarde" name="tarde" value="tarde">
+    <label for="1tarde"> Tarde</label><br>
+    <input type="checkbox" id="1noite" name="noite" value="noite">
+    <label for="1noite"> Noite</label><br>
+    
+
+    <!--horariosugerido-->
+     <label for="time">Horário Sugerido  </label>
+     <input type="time">
+    <br> <br>
+    
+    <!--tipobanco-->
+    <label for="tipobanco">Escolha o tipo de Banco de Dados:</label>
+    <br> 
+    <input type="radio" id="mysql" name="fav_language" value="MySQL">
+    <label for="html">MySQL</label><br>
+    <input type="radio" id="postgresql" name="fav_language" value="PostgreSQL">
+    <label for="css">PostgreSQL</label><br>
+    <input type="radio" id="mongodb" name="fav_language" value="MongoDB">
+    <label for="javascript">MongoDB</label>
+    <input type="radio" id="outro" name="fav_language" value="Outro">
+    <label for="javascript">Outro</label>
+    <br> <br>
+
+    <!--enviarOUlimpar-->
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+    <br> <br>
+
+    <!--dataentrega-->
+    <label for="date">Data de entrega prevista </label> <label for="date"                      style="color:red">*</label>
+    <input type="datetime-local">
+
+
+    <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp          &nbsp  <label for="campos"style="color:red">*</label> Campos obrigatórios</p>
+
+
+    
+  </form>
+  
+</div>
